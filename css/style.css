@@ -1,0 +1,60 @@
+.top-bar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar li{
+    display: inline;
+    margin: 5px;
+}
+.tabs{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+ul li{
+    list-style: none;
+    text-align: center;
+}
+ul li a{
+    text-align: center;
+    text-decoration: none;
+}
+.button{
+    padding: 10px;
+    background-color: #203447;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+    margin: 20px;
+}
+body{
+    font-family: 'Fjalla One', sans-serif;
+}
+.button:hover{
+    background-color: #ff8903; 
+    color: white;
+}
+.bottom{
+    background: rgb(16,26,33);
+    background: linear-gradient(90deg, rgba(16,26,33,1) 0%, rgba(53,85,120,1) 100%);
+    padding:20px;
+    margin: 20px;
+    width: 100%;
+}
+.header{
+    color: white;
+}
+a{
+    text-align: center;
+}
+.p{
+    color: white;
+}
