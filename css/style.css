@@ -1,3 +1,7 @@
+.top-bar{
+    background: #ffffff;
+
+}
 .top-bar ul{
     list-style: none;
     margin: 0;
@@ -8,12 +12,27 @@
     display: inline;
     margin: 5px;
 }
+.yep ul{
+    padding: 5px;
+    margin-top: 30px;
+    display: inline-block;
+    float: right;
+
+}
+.yep li{
+    display: inline;
+}
+.no ul{
+    margin-right: 10px;
+    float: right;
+    list-style: none;
+}
 .tabs{
     text-align: center;
 }
 h2{
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 ul li{
     list-style: none;
@@ -30,13 +49,20 @@ ul li a{
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
+    font-family: 'Fjalla One';
+    margin-bottom: 500px;
+}
+.idk{
+    margin-bottom: 20px;
+    background: white;
 }
 img{
     border-radius: 10px;
     margin: 20px;
 }
 body{
-    font-family: 'Fjalla One', sans-serif;
+    font-family: sans-serif;
+    background: #f0f2f2;
 }
 .button:hover{
     background-color: #ff8903; 
@@ -45,9 +71,8 @@ body{
 .bottom{
     background: rgb(16,26,33);
     background: linear-gradient(90deg, rgba(16,26,33,1) 0%, rgba(53,85,120,1) 100%);
-    padding:20px;
-    margin: 20px;
-    width: 100%;
+    margin-top: 30px;
+
 }
 .header{
     color: white;
@@ -57,4 +82,57 @@ a{
 }
 .p{
     color: white;
+    line-height: 0cm;
+}
+nav{
+    background-color: darkblue;
+}
+.h2{
+    font-family: 'Fjalla One';
+    font-size: 3em;
+}
+.top-bar{
+    background: #131d29;
+    padding: 6px 0;
+}
+.top-bar a{
+    color: grey;
+}
+.top-bar ul{
+    text-align: right;
+}
+
+h2{
+    font-family: 'Fjalla One';
+    font-size: 2em;
+}
+.subheader{
+    color: white;
+    text-align: left;
+
+}
+.subheader2{
+    color: grey;
+    text-align: left;
+    
+}
+.foot{
+    background-color: black;
+    height: 50px;
+}
+.foot p{
+    color: white;
+    font-size: 10px;
+}
+.para{
+    margin-bottom: 50px;
+}
+.buttons{
+    margin-bottom: 500px;
+}
+.a{
+    color: grey;
+}
+.img{
+    margin: 6px;
 }
